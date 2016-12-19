@@ -1,0 +1,30 @@
+{
+    "name": "motss-js-snippets",
+    "publisher": "motss",
+    "description": "motss JS snippets",
+    "displayName": "motss JS snippets",
+    "version": "0.1.1",
+    "engines": {
+      "vscode": "0.10.x"
+    },
+    "categories": [
+      "Snippets"
+    ], 
+    "license": "SEE LICENSE IN LICENSE.md",
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/javascript.json"
+            }
+        ]
+    },
+    "bugs": {
+      "url": "https://github.com/motss/vscode-motss-JS-snippets/issues"
+    },
+    "homepage": "https://github.com/motss/vscode-motss-JS-snippets/blob/master/README.md",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:motss/vscode-motss-JS-snippets.git"
+    }
+}
