@@ -125,5 +125,18 @@
 			"",
 			"});"
 		]
+	},
+
+	"Custom Elements v1 whenDefined": {
+		"prefix": "ce-wd",
+		"description": "whenDefined accepts a custom element's localName and returns a resolved Promise when the custome element is defined.",
+		"body": [
+			"window.customElements.whenDefined($1)",
+			"  .then(() => {",
+			"    $2",
+			"  })",
+			"  .catch(err => err && console.error(err));"
+		]
 	}
+
 }
